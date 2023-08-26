@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Analytic Dashboard</title>
+    <title>Trendy Dashboard</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -13,11 +13,11 @@
     <div class="dashboard">
       <!-- Menu -->
       <div class="menu flex-c">
-        <div class="logo">
+        <!--div class="logo">
           <div class="icon">
             <ion-icon name="logo-bitbucket"></ion-icon>
           </div>
-        </div>
+        </div-->
         <div class="navigation">
           <div class="icon">
             <ion-icon name="filter-circle-outline"></ion-icon>
@@ -48,7 +48,7 @@
         <div class="main-content">
           <!-- Head -->
           <div class="head flex">
-            <h1>Good Morning 👋</h1>
+            <h1>Your Stats</h1>
 
             <div class="box flex time-period">
               Monthly
@@ -63,17 +63,17 @@
           <!-- Stats -->
           <div class="stats flex">
             <div class="stats-box sales">
-              <h2 class="heading">Sales</h2>
+              <h2 class="heading">Graph</h2>
               <canvas id="sales"></canvas>
             </div>
 
             <div class="stats-box earning">
-              <h2 class="heading">Earning</h2>
+              <h2 class="heading">Purchase</h2>
               <div class="earning-amount flex-c">
                 <div class="earning-icon flex">
                   <ion-icon name="logo-paypal"></ion-icon>
                 </div>
-                <p>$9125.33</p>
+                <p>$10000</p>
               </div>
               <canvas id="earning"></canvas>
             </div>
@@ -82,60 +82,60 @@
           <!-- Product Stats -->
           <div class="product-stats flex">
             <div class="product-sales stats-box">
-              <h2 class="heading">Sales</h2>
+              <h2 class="heading">Purchase History</h2>
               <canvas id="products"></canvas>
             </div>
 
             <div class="top-selling stats-box">
-              <h2 class="heading">Top Selling Product</h2>
+              <h2 class="heading">Top Buying Category</h2>
               <table class="top-selling-products" height="100%" width="100%">
                 <tr>
-                  <th>ID</th>
+                  <th>Type</th>
                   <th>Product</th>
                   <th>Price</th>
-                  <th>Sold</th>
+                  <!--th>Sold</th-->
                 </tr>
 
                 <tr>
-                  <td>68231</td>
+                  <td>Dresses</td>
                   <td>
                     <div class="product-name flex">
                       <div class="icon">
-                        <ion-icon name="logo-amazon"></ion-icon>
+                        
                       </div>
-                      <p>Amazon Kindle 4th Gen</p>
+                      <p>Adidas Yellow Jacket</p>
                     </div>
                   </td>
-                  <td>$1900</td>
-                  <td>351</td>
+                  <td>$1000</td>
+                  
                 </tr>
 
                 <tr>
-                  <td>68231</td>
+                  <td>Dresses</td>
                   <td>
                     <div class="product-name iphone flex">
                       <div class="icon">
-                        <ion-icon name="logo-apple"></ion-icon>
+                        
                       </div>
-                      <p>Iphone 11 Pro</p>
+                      <p>Red Dress</p>
                     </div>
                   </td>
-                  <td>$1300</td>
-                  <td>121</td>
+                  <td>$1000</td>
+                  
                 </tr>
 
                 <tr>
-                  <td>68231</td>
+                  <td>Jewellery</td>
                   <td>
                     <div class="product-name windows flex">
                       <div class="icon">
-                        <ion-icon name="logo-microsoft"></ion-icon>
+                        
                       </div>
-                      <p>Windows 11</p>
+                      <p>Diamond Ring</p>
                     </div>
                   </td>
-                  <td>$180</td>
-                  <td>195</td>
+                  <td>$1000</td>
+                  
                 </tr>
               </table>
             </div>
@@ -157,8 +157,8 @@
 
           <div class="user">
             <img src="img/avatar.png" alt="" />
-            <h2>Hassnain Haider</h2>
-            <p>Front-End Developer</p>
+            <h2>User 1</h2>
+            <p>Email: user1@gmail.com</p>
           </div>
 
           <div class="activities">
@@ -173,10 +173,10 @@
               <ion-icon name="wallet-outline"></ion-icon>
             </div>
             <div class="task">
-              <h2>Earning Widrawal</h2>
-              <p>$125</p>
+              <h2>Total Purchase</h2>
+              <p>$10000</p>
             </div>
-            <div class="time">11:30 AM</div>
+            <!--div class="time">11:30 AM</div-->
           </div>
 
           <div class="activity flex">
@@ -184,21 +184,13 @@
               <ion-icon name="wallet-outline"></ion-icon>
             </div>
             <div class="task">
-              <h2>Website Taxes</h2>
-              <p>$95</p>
+              <h2>Discount:</h2>
+              <p>$100</p>
             </div>
-            <div class="time">12:20 AM</div>
+            <!--div class="time">12:20 AM</div-->
           </div>
-
-          <div class="upgrade flex-c">
-            <div class="icon">
-              <ion-icon name="albums-outline"></ion-icon>
-            </div>
-
-            <p>Unlock more unique features by becoming a <span>PRO</span></p>
-          </div>
-          <div class="btn flex">Upgrade Now</div>
-        </div>
+          <div class="btn flex">Delete Account</div>
+        <!--/div-->
         <!-- End Profile  -->
       </div>
     </div>

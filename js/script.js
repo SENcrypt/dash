@@ -13,8 +13,9 @@ new Chart(sales, {
     datasets: [
       {
         label: "My Revenue",
-        data: [380, 200, 500, 300, 150, 400, 100],
-        backgroundColor: ["rgba(155,128,151,1)"],
+        data: [500, 2000, 1000,500, 1500, 1000, 500],
+        //backgroundColor: ["rgba(155,128,151,1)"],
+        backgroundColor: ["#4caf50"],
         hoverBackgroundColor: "#FF90B8",
       },
     ],
@@ -35,9 +36,10 @@ new Chart(earning, {
     labels: ["Jan", "Feb", "Mar", "Apr", "May"],
     datasets: [
       {
-        label: "My Revenue",
-        data: [380, 200, 500, 300, 150],
-        backgroundColor: ["rgba(155,128,151,1)"],
+        label: "My Purchase",
+        data: [500, 2000, 1000, 500, 1500],
+        //backgroundColor: ["rgba(155,128,151,1)"],
+        backgroundColor: ["#4caf50"],
         hoverBackgroundColor: "#FF90B8",
       },
     ],

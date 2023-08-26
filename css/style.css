@@ -21,7 +21,8 @@ html {
 .dashboard {
   max-width: 120rem;
   min-height: 80rem;
-  background: #291623;
+  /*background: #291623;*/
+  background: #333;
   margin: 5rem auto;
   display: flex;
   overflow-x: hidden;
@@ -100,7 +101,8 @@ html {
 
 .box {
   padding: 10px;
-  background: #33202c;
+  /*background: #33202c;*/
+  background: #333;
   font-size: 1.8rem;
   font-weight: 500;
   color: #e6e3e5;
@@ -117,7 +119,7 @@ html {
 
 /* Stats */
 .stats {
-  background: #33202c;
+  background: #333;
   margin-top: 4rem;
   padding: 2rem 1rem;
   font-size: 1.6rem;
@@ -139,6 +141,7 @@ html {
 
 .earning {
   background: #3f2532;
+ // background:;
   width: 38%;
 }
 
@@ -164,7 +167,7 @@ html {
 }
 
 .product-stats .stats-box {
-  background: #33202c;
+  background: #333;
 }
 
 .product-sales {
